@@ -57,7 +57,7 @@ const Home = () => {
       <div className='h-screen mt-[50px] bg-black flex flex-row justify-between'>
         <div className='flex ml-[100px] mt-[50px] flex-col grow'>
           <h1 className='text-white mt-[80px] text-gradient text-[30px] lg:text-[50px] md:text-[30px]'>
-            <span className={roboto.className}>Explore the Cosmos.</span>
+            <span className={roboto.className}>Step into the Wonders of the Astronomy Club!</span>
           </h1>
           <div className='mt-[20px]'>
             <p className='text-white text-[10px] lg:text-[25px] md:text-[20px]'>
