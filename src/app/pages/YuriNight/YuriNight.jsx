@@ -4,9 +4,15 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import star from "../../../../public/star.png";
 import pic1 from "../../../../public/Image1.JPG";
-import pic2 from "../../../../public/Image2.JPG";
-import pic3 from "../../../../public/Image3.JPG";
-import pic4 from "../../../../public/Image4.JPG";
+import pic2 from "../../../../public/Image7.JPG";
+import pic3 from "../../../../public/Image2.png";
+import pic4 from "../../../../public/Image8.JPG";
+import pic5 from "../../../../public/Image5.JPG";
+import pic6 from "../../../../public/Image22.png";
+import pic7 from "../../../../public/Image33.JPG";
+import pic8 from "../../../../public/Image4.JPG";
+
+
 import backgroundImage from "../../../../public/postImages/darkSpace.jpg";
 import logo from "../../../../public/Hero.png";
 
@@ -114,22 +120,22 @@ const YuriNight = () => {
         {
             title: "Planet Hunt",
             desc: "A celestial challenge of machine learning prowess, where participants race to identify exoplanets using cutting-edge algorithms in this thrilling competition.",
-            img: pic4,
+            img: pic5,
         },
         {
             title: "Astro Pixels",
             desc: "Explore the universe through a cutting-edge lens, utilizing deep learning and computer vision to unlock the secrets of space within celestial images.",
-            img: pic2,
+            img: pic6,
         },
         {
             title: "Telescon",
             desc: "A hands-on experience in constructing your own telescope, merging education with practical astronomy, and bringing the cosmos closer to home.",
-            img: pic3,
+            img: pic7,
         },
         {
             title: "Pitch Beyond Earth",
             desc: "A hands-on experience in Astro-entrepreneuship based event",
-            img: pic4,
+            img: pic8,
         }
     ];
 
@@ -206,7 +212,9 @@ const YuriNight = () => {
             >
                 <p className="animate-fade-in delay-600">
                     Contact us at{" "}
-                    <span className="text-cyan-400">astroclub@example.com</span>
+                    <a href="mailto:astronomyclub.iitbhu@gmail.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">
+                        astronomyclub.iitbhu@gmail.com
+                    </a>
                 </p>
             </footer>
         </>
