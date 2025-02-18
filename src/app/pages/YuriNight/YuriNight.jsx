@@ -3,10 +3,10 @@ import "../../globals.css";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import star from "../../../../public/star.png";
-import pic1 from "../../../../public/Image1.jpg";
-import pic2 from "../../../../public/Image2.jpg";
-import pic3 from "../../../../public/Image3.jpg";
-import pic4 from "../../../../public/Image4.jpg";
+import pic1 from "../../../../public/Image1.JPG";
+import pic2 from "../../../../public/Image2.JPG";
+import pic3 from "../../../../public/Image3.JPG";
+import pic4 from "../../../../public/Image4.JPG";
 import backgroundImage from "../../../../public/postImages/darkSpace.jpg";
 import logo from "../../../../public/Hero.png";
 
