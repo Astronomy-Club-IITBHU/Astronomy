@@ -81,7 +81,7 @@ const Team = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
-                    Our Team
+                    Our Current Secretaries
                 </motion.h1>
                 {Object.keys(teamMembers).sort((a, b) => b - a).map((year) => (
                     <div key={year} className="year-section mb-12">
